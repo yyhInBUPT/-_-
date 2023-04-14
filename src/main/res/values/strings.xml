@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">食在指尖</string>
+    <string name="Wtl">欢迎登录</string>
+    <string name="str1">请输入您的账号密码</string>
+    <string name="str2">记住账号密码</string>
+    <string name="str3">还没有账号？</string>
+    <string name="str4">点击快速注册</string>
+    <string name="username">请输入您的用户名</string>
+    <string name="password">请输入您的密码</string>
+    <string name="repassword">请再次输入您的密码</string>
+    <string name="phone_number">请输入您的手机号</string>
+    <string name="verification_code">请输入验证码</string>
+</resources>

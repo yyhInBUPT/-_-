@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:gravity="center_horizontal"
+        android:text="欢迎注册"
+        android:textColor="@color/black2"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/inputbox"
+            android:drawableLeft="@drawable/baseline_call_24"
+            android:drawablePadding="16dp"
+            android:hint="@string/phone_number"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputbox"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="16dp"
+            android:hint="@string/username"
+            android:paddingLeft="16dp"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputbox"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="16dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/repass"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputbox"
+            android:drawableLeft="@drawable/baseline_dialpad_24"
+            android:drawablePadding="16dp"
+            android:hint="@string/repassword"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/verification"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputbox"
+            android:hint="@string/verification_code"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="44dp"
+            android:textColorHint="@color/gray" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/registration"/>
+
+</LinearLayout>
